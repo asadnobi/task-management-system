@@ -9,38 +9,43 @@ Prerequisites:
 
 Environment Requirements:
 - Operating System: Windows, macOS, or Linux
-- Node.js Version: 18.x or later
+- Node.js Version: 14.x or later
 - Angular CLI Version: 17.x or later
 - Browser: Latest version of Chrome, Firefox, Edge, or Safari
+- Code Editor: Visual Studio Code (recommended) or any other code editor of your choice
 
 Getting Started:
 
 1. Clone the Repository:
-   git clone https://github.com/asadnobi/task-management-system.git
+```sh
+   git clone https://github.com/your-username/task-management-system.git
+```
 
 2. Navigate to the Project Directory:
+```sh
    cd task-management-system
+```
 
 3. Install Dependencies:
+```sh
    npm install
+```
 
 4. Run the Application:
+```sh
    ng serve
+```
 
 5. Access the Application:
    Open your web browser and navigate to: http://localhost:4200/
 
+   If you prefer, you can also access the application online at: [Task Management System](https://tmsiri.vercel.app/)
+
 Building the Project:
 
 To build the project for production, run:
+```sh
    ng build
+```
 
 The build artifacts will be stored in the 'dist/' directory. Use the '--prod' flag for a production build.
-
-Contributing:
-
-If you would like to contribute to this project, please follow the guidelines outlined in the CONTRIBUTING.md file.
-
-License:
-
-This project is licensed under the MIT License. See the LICENSE.md file for more information.
