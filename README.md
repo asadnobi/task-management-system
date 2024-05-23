@@ -1,27 +1,46 @@
-# Angular17StandaloneExample
+# Task Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+This project is a task management system built using Angular 17 standalone. Below are the instructions to set up and run the project.
 
-## Development server
+Prerequisites:
+- Node.js (version 14.x or later)
+- Angular CLI (version 17.x or later)
+- Git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Environment Requirements:
+- Operating System: Windows, macOS, or Linux
+- Node.js Version: 18.x or later
+- Angular CLI Version: 17.x or later
+- Browser: Latest version of Chrome, Firefox, Edge, or Safari
 
-## Code scaffolding
+Getting Started:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the Repository:
+   git clone https://github.com/asadnobi/task-management-system.git
 
-## Build
+2. Navigate to the Project Directory:
+   cd task-management-system
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Install Dependencies:
+   npm install
 
-## Running unit tests
+4. Run the Application:
+   ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Access the Application:
+   Open your web browser and navigate to: http://localhost:4200/
 
-## Running end-to-end tests
+Building the Project:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To build the project for production, run:
+   ng build
 
-## Further help
+The build artifacts will be stored in the 'dist/' directory. Use the '--prod' flag for a production build.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributing:
+
+If you would like to contribute to this project, please follow the guidelines outlined in the CONTRIBUTING.md file.
+
+License:
+
+This project is licensed under the MIT License. See the LICENSE.md file for more information.
