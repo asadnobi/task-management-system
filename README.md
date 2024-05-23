@@ -3,22 +3,21 @@
 This project is a task management system built using Angular 17 standalone. Below are the instructions to set up and run the project.
 
 Prerequisites:
-- Node.js (version 14.x or later)
+- Node.js (version 18.x or later)
 - Angular CLI (version 17.x or later)
 - Git
 
 Environment Requirements:
 - Operating System: Windows, macOS, or Linux
-- Node.js Version: 14.x or later
+- Node.js Version: 18.x or later
 - Angular CLI Version: 17.x or later
 - Browser: Latest version of Chrome, Firefox, Edge, or Safari
-- Code Editor: Visual Studio Code (recommended) or any other code editor of your choice
 
 Getting Started:
 
 1. Clone the Repository:
 ```sh
-   git clone https://github.com/your-username/task-management-system.git
+   git clone https://github.com/asadnobi/task-management-system.git
 ```
 
 2. Navigate to the Project Directory:
