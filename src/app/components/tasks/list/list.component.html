@@ -1,0 +1,44 @@
+<div class="grid">
+  <div class="col-12">
+    <div class="card">
+      <h5>Task List</h5>
+      <p-dataView
+        #dv
+        [value]="tasks"
+        [paginator]="true"
+        [rows]="9"
+        filterBy="status"
+        layout="grid"
+        class="relative"
+      >
+        <ng-template pTemplate="header">
+          <div
+            class="flex flex-column md:flex-row md:justify-content-between gap-2"
+          >
+            <p-dropdown
+              [options]="filterOptions"
+              placeholder="Filter By Status"
+              (onChange)="filterBy(dv, $event)"
+            ></p-dropdown>
+
+            <button
+              pButton
+              type="button"
+              label="Add New Task"
+              icon="pi pi-plus"
+              routerLink="/tasks/add"
+            ></button>
+          </div>
+        </ng-template>
+
+        <ng-template let-tasks pTemplate="gridItem">
+          <div class="grid mt-3">
+            @for (task of tasks; track $index) {
+              <app-task [task]="task" [index]="$index"></app-task>
+            }
+          </div>
+        </ng-template>
+      </p-dataView>
+    </div>
+  </div>
+</div>
